@@ -1,6 +1,6 @@
-# Guía de Instalación y Uso - Gaming Console Manager
+# Guía de Instalación y Uso - 
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 ### Sistema
 - **Flutter SDK**: versión 3.9.2 o superior
@@ -16,7 +16,7 @@
 - macOS con Xcode instalado
 - iOS Simulator o dispositivo físico
 
-## 🚀 Instalación Paso a Paso
+##  Instalación Paso a Paso
 
 ### 1. Verificar Instalación de Flutter
 ```bash
@@ -63,7 +63,7 @@ flutter run
 flutter run --release
 ```
 
-## 🎮 Uso de la Aplicación
+##  Uso de la Aplicación
 
 ### Primera Vez
 
@@ -86,17 +86,17 @@ flutter run --release
 - **Ver detalles**: Toca cualquier consola para ver información completa
 - **Ver joysticks**: En los detalles, encuentra los controles disponibles
 
-#### 📦 Productos
+####  Productos
 - **Listar**: Todos los productos de la API
 - **Agregar**: Botón flotante "+" para nuevo producto
 - **Editar**: Menú de tres puntos → "Editar"
 - **Eliminar**: Menú de tres puntos → "Eliminar" (con confirmación)
 
-#### 📁 Categorías
+####  Categorías
 - **Gestión completa**: Similar a productos
 - **Estados**: Activa/Inactiva
 
-#### 🏢 Proveedores
+####  Proveedores
 - **Información completa**: Nombre, apellido, email
 - **Estados**: Activo/Inactivo
 - **CRUD completo**: Crear, leer, actualizar, eliminar
@@ -194,7 +194,7 @@ flutter run -d chrome
 - **Funcionalidades limitadas**: Algunas características de Firebase pueden no funcionar
 - **Rendimiento**: Menor que nativo
 
-## 🎯 Consejos de Uso
+##  Consejos de Uso
 
 ### Para Mejores Resultados
 1. **Conexión estable**: Usa WiFi para mejor experiencia
