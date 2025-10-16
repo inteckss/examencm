@@ -1,26 +1,24 @@
-# Gaming Console Manager
-
 Una aplicación Flutter completa para gestionar consolas de videojuegos, sus joysticks, y realizar operaciones CRUD con productos, categorías y proveedores.
 
-## Características
+ Características
 
-### 🎮 Consolas y Joysticks
+ Consolas y Joysticks
 - **Catálogo de Consolas**: PlayStation 5, Xbox Series X, Nintendo Switch, PlayStation 4, Xbox One
-- **Detalles de Joysticks**: Para cada consola se muestran sus controles disponibles
-- **Información Completa**: Especificaciones, conectividad, imágenes
+**Detalles de Joysticks**: Para cada consola se muestran sus controles disponibles
+**Información Completa**: Especificaciones, conectividad, imágenes
 
-### 🔐 Autenticación
+ Autenticación
 - **Login con Firebase**: Email y contraseña
 - **Registro de usuarios**: Crear nuevas cuentas
 - **Gestión de sesión**: Mantener usuario logueado
 - **Recuperación de contraseña**: Reset por email
 
-### 📊 Gestión de Datos (API REST)
+ Gestión de Datos (API REST)
 - **Productos**: CRUD completo con nombre, precio, imagen y estado
 - **Categorías**: CRUD con nombre y estado
 - **Proveedores**: CRUD con nombre, apellido, email y estado
 
-## Tecnologías Utilizadas
+Tecnologías Utilizadas
 
 - **Flutter**: Framework de desarrollo
 - **Firebase Auth**: Autenticación de usuarios
@@ -28,7 +26,7 @@ Una aplicación Flutter completa para gestionar consolas de videojuegos, sus joy
 - **HTTP**: Consumo de API REST
 - **Material Design**: Interfaz de usuario
 
-## API Endpoints
+ API Endpoints
 
 La aplicación consume una API REST con las siguientes credenciales:
 - **URL Base**: 143.198.118.203:8100
@@ -36,22 +34,22 @@ La aplicación consume una API REST con las siguientes credenciales:
 - **Contraseña**: test2023
 
 ### Productos
-- `GET /ejemplos/product_list_rest/` - Listar productos
-- `POST /ejemplos/product_add_rest/` - Agregar producto
-- `POST /ejemplos/product_edit_rest/` - Editar producto
-- `POST /ejemplos/product_del_rest/` - Eliminar producto
+`GET /ejemplos/product_list_rest/` - Listar productos
+`POST /ejemplos/product_add_rest/` - Agregar producto
+`POST /ejemplos/product_edit_rest/` - Editar producto
+`POST /ejemplos/product_del_rest/` - Eliminar producto
 
 ### Categorías
-- `GET /ejemplos/category_list_rest/` - Listar categorías
-- `POST /ejemplos/category_add_rest/` - Agregar categoría
-- `POST /ejemplos/category_edit_rest/` - Editar categoría
-- `POST /ejemplos/category_del_rest/` - Eliminar categoría
+`GET /ejemplos/category_list_rest/` - Listar categorías
+`POST /ejemplos/category_add_rest/` - Agregar categoría
+`POST /ejemplos/category_edit_rest/` - Editar categoría
+`POST /ejemplos/category_del_rest/` - Eliminar categoría
 
 ### Proveedores
-- `GET /ejemplos/provider_list_rest/` - Listar proveedores
-- `POST /ejemplos/provider_add_rest/` - Agregar proveedor
-- `POST /ejemplos/provider_edit_rest/` - Editar proveedor
-- `POST /ejemplos/provider_del_rest/` - Eliminar proveedor
+`GET /ejemplos/provider_list_rest/` - Listar proveedores
+`POST /ejemplos/provider_add_rest/` - Agregar proveedor
+`POST /ejemplos/provider_edit_rest/` - Editar proveedor
+`POST /ejemplos/provider_del_rest/` - Eliminar proveedor
 
 ## Estructura del Proyecto
 
@@ -64,63 +62,38 @@ lib/
 ├── widgets/          # Widgets reutilizables
 └── main.dart         # Punto de entrada
 ```
-
-## Instalación y Configuración
-
-1. **Clonar el repositorio**
-   ```bash
-   git clone <repository-url>
-   cd examen
-   ```
-
-2. **Instalar dependencias**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configurar Firebase**
-   - Crear proyecto en Firebase Console
-   - Activar Authentication con Email/Password
-   - Descargar y reemplazar `google-services.json` (Android)
-   - Descargar y reemplazar `GoogleService-Info.plist` (iOS)
-
-4. **Ejecutar la aplicación**
-   ```bash
-   flutter run
-   ```
-
 ## Funcionalidades por Pantalla
 
-### 🔐 Login
+Login
 - Formulario de autenticación
 - Validación de campos
 - Cambio entre login y registro
 - Manejo de errores
 
-### 🏠 Home
+Home
 - Navegación por tabs
 - Carga automática de datos
 - Menú de usuario
 - Cerrar sesión
 
-### 🎮 Consolas
+Consolas
 - Lista de consolas disponibles
 - Detalles de cada consola
 - Información de joysticks
 - Navegación fluida
 
-### 📦 Productos
+Productos
 - Lista con imágenes
 - Agregar/Editar/Eliminar
 - Estados (Activo/Inactivo)
 - Validación de formularios
 
-### 📁 Categorías
+Categorías
 - CRUD completo
 - Estados configurables
 - Interfaz simple y clara
 
-### 🏢 Proveedores
+Proveedores
 - Gestión de contactos
 - Información completa
 - Estados activo/inactivo
@@ -142,4 +115,4 @@ lib/
 
 ## Autor
 
-Desarrollado como proyecto de examen para la materia de Computación Móvil.
+Desarrollado como proyecto de examen por Claudio Aguilera C. para la materia de Computación Móvil.
