@@ -1,14 +1,14 @@
-# Configuración de Imágenes - Gaming Console Manager
+# Configuración de Imágenes - 
 
-## ✅ Verificación Completada
+##  Verificación Completada
 
 ### Estado del Sistema de Imágenes
 
-**TODAS LAS IMÁGENES ESTÁN CORRECTAMENTE CONFIGURADAS** ✅
+**TODAS LAS IMÁGENES ESTÁN CORRECTAMENTE CONFIGURADAS**
 
 ### Catálogo de Productos con Imágenes
 
-#### 🎮 **Consolas (6 productos)**
+####  **Consolas (6 productos)**
 1. **PlayStation 5 Console** - $499.99
    - URL: https://i.imgur.com/yK8fPS5.jpg
    
@@ -27,7 +27,7 @@
 6. **Nintendo Switch Lite** - $199.99
    - URL: https://i.imgur.com/bM7dF2Q.jpg
 
-#### 🎮 **Joysticks/Controladores (9 productos)**
+####  **Joysticks/Controladores (9 productos)**
 7. **DualSense Controller (White)** - $69.99
    - URL: https://i.imgur.com/xH5eM2P.jpg
    
