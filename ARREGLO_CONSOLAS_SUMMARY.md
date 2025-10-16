@@ -1,4 +1,4 @@
-# 🎮 Arreglo de Imágenes en Consolas - Commit Summary
+#  Arreglo de Imágenes en Consolas - Commit Summary
 
 ## ✅ **PROBLEMA SOLUCIONADO**
 
