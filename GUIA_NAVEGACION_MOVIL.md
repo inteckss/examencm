@@ -1,4 +1,4 @@
-# 📱 Guía de Navegación Móvil - Gaming Console Manager
+# 📱 Guía de Navegación Móvil
 
 ## 🎯 **Estado Actual en Móvil**
 
